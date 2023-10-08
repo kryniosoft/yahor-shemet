@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>ZESPÓŁ SZKÓŁ ENERGETYCZNYCH</title>
+  <style>
+    .button-frame {
+      border: 1px solid #ccc;
+      padding: 5px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .center {
+      text-align: center;
+    }
+    /* Styl koloru czcionki */
+    body {
+      color: #333; /* Kolor czcionki */
+    }
+  </style>
+</head>
+<body>
+<h1 class="left">ZESPÓŁ SZKÓŁ ENERGETYCZNYCH</h1>
+<p class="left">TECHNIKUM NR 13</p>
+<p class="left">BRANŻOWA SZKOŁA I STOPNIA NR 10</p>
+<p class="left">ul. Mikołaja Reja 25</p>
+<p class="left">80-870 Gdańsk</p>
+<p class="left">(58) 762-28-25 </p>
+<p class="left">(58) 762-28-26</p>
+<p class="left"><a href="https://www.zse.edu.gdansk.pl" target="_blank">strona internetowa: www.zse.edu.gdansk.pl</a></p>
+<p class="left">e-mail: <a href="mailto:sekretariat@zse.edu.gdansk.pl">sekretariat@zse.edu.gdansk.pl</a></p>
+<p class="right">  <img src="media/logo_szkoly.png" alt="ZSE Logo" width="200"> </p>
+
+<form action="#" method="post">
+  <label for="gender">Płeć:</label>
+  <select id="gender" name="gender">
+    <option value="Mężczyzna">Mężczyzna</option>
+    <option value="Kobieta">Kobieta</option>
+    <option value="Inna">Inna</option>
+  </select>
+  <br>
+
+  <label for="birthdate">Data urodzenia:</label>
+  <input type="date" id="birthdate" name="birthdate">
+  <br>
+
+  <label for="currentDate">Dzisiejsza data:</label>
+  <input type="date" id="currentDate" name="currentDate" value="<?php echo date('Y-m-d'); ?>">
+  <br>
+
+  <label for="class">Klasa:</label>
+  <select id="class" name="class">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+  <br>
+
+  <label for="classLetter">Litera klasy:</label>
+  <select id="classLetter" name="classLetter">
+    <option value="a">A</option>
+    <option value="b">B</option>
+    <option value="c">C</option>
+    <option value="d">D</option>
+    <option value="e">E</option>
+    <option value="f">F</option>
+    <option value="g">G</option>
+    <option value="h">H</option>
+    <option value="k">K</option>
+  </select>
+  <br>
+
+  <label for="subject">Przedmiot:</label>
+  <select id="subject" name="subject">
+    <option value="Matematyka">Matematyka</option>
+    <option value="Historia">Historia</option>
+    <option value="Język polski">Język polski</option>
+    <option value="Fizyka">Fizyka</option>
+    <option value="Chemia">Chemia</option>
+  </select>
+  <br>
+
+  <label for="occupation">Zawód:</label>
+  <input type="text" id="occupation" name="occupation">
+  <select id="occupation" name="occupation">
+    <option value="Technik informatyk">Technik informatyk</option>
+    <option value="Elektryk">Elektryk</option>
+    <option value="Programista">Programista</option>
+  </select>
+  <br>
+
+  <label>Preferowane zajęcia dodatkowe:</label>
+  <div class="button-frame">
+    <input type="checkbox" id="english" name="english" value="English">
+    <label for="english">English</label>
+  </div>
+  <div class="button-frame">
+    <input type="checkbox" id="programming" name="programming" value="Programming">
+    <label for="programming">Programowanie</label>
+  </div>
+  <div class="button-frame">
+    <input type="checkbox" id="art" name="art" value="Art">
+    <label for="art">Sztuka</label>
+  </div>
+  <br>
+
+  <label for="otherActivities">Inne zajęcia:</label>
+  <textarea id="otherActivities" name="otherActivities" rows="4" cols="50"></textarea>
+  <br>
+
+  <input type="submit" value="Wyślij">
+</form>
+</body>
+</html>

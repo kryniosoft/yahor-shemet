@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Browser</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: #000000; /* Tło całej tabeli */
+        }
+
+        th, td {
+            border: 1px solid #000000; /* Obramowanie 1 piksel szerokości, czarne */
+            padding: 8px;
+            text-align: left;
+            background-color: #3ab9e6; /* Jasnoniebieskie tło */
+        }
+
+        th.center, td.center {
+            text-align: center;
+            background-color: #02b5f6; /* Jasnoniebieskie tło */
+        }
+
+        th.header-bar {
+            border: 1px solid #000000;
+            background-color: #a4a2a2; /* Kolor tła paska */
+            text-align: center;
+        }
+
+        td.no-border {
+            border: none; /* Usunięcie obramowania */
+        }
+
+        /* Kolorowanie odpowiednich komórek */
+        td.model, td.rdzenie, td.taktowanie, td.gniazdo, td.firma, th.header-bar {
+            color: red; /* Jasnoniebieski kolor tekstu */
+        }
+
+        td.procesor, td.intel-amd {
+            color: green; /* Zielony kolor tekstu */
+        }
+    </style>
+</head>
+
+<body>
+<table>
+    <tr>
+        <th colspan="5" class="header-bar"><b>Dane procesora - Yahor Shemet 2G2</b></th>
+    </tr>
+    <tr>
+        <th class="model" style="color: white;">MODEL</th>
+        <th class="rdzenie" style="color: white;">Liczba rdzeni</th>
+        <th class="taktowanie" style="color: white;">taktowanie procesora</th>
+        <th class="gniazdo" style="color: white;">typ gniazda</th>
+        <th class="firma" style="color: white;">FIRMA</th>
+    </tr>
+    <tr>
+        <td class="procesor">Core i5-12400F</td>
+        <td class="rdzenie">6</td>
+        <td class="taktowanie">2.4 GHz</td>
+        <td class="gniazdo">soket 1700</td>
+        <td class="firma"></td>
+    </tr>
+    <tr>
+        <td class="procesor">Core i5-12400F</td>
+        <td class="rdzenie">6</td>
+        <td class="taktowanie">2.4 GHz</td>
+        <td class="gniazdo">soket 1700</td>
+        <td class="firma"></td>
+    </tr>
+    <tr>
+        <td class="procesor">Core i3-11600F</td>
+        <td class="rdzenie">6</td>
+        <td class="taktowanie">2.9 GHz</td>
+        <td class="gniazdo">soket 1700</td>
+        <td class="firma">Intel</td>
+    </tr>
+    <tr>
+        <td class="procesor">Ryzen 7 3700X</td>
+        <td class="rdzenie">8</td>
+        <td class="taktowanie">3.6 GHz</td>
+        <td class="gniazdo">AM4</td>
+        <td class="firma">i</td>
+    </tr>
+    <tr>
+        <td class="procesor">Ryzen 5 5600G</td>
+        <td class="rdzenie">6</td>
+        <td class="taktowanie">3.9 GHz</td>
+        <td class="gniazdo">AM4</td>
+        <td class="firma">AMD</td>
+    </tr>
+    <tr>
+        <td class="procesor">Ryzen 3 4100</td>
+        <td class="rdzenie">4</td>
+        <td class="taktowanie">3.6 GHz</td>
+        <td class="gniazdo">AM4</td>
+        <td class="firma"></td>
+    </tr>
+    <tr>
+        <th colspan="5" class="center" style="background-color: black; color: white "><b>Dane procesora</b></th>
+    </tr>
+</table>
+</body>
+
+</html>

@@ -1,2 +1,0 @@
-# yahor-shemet
-M.Kryniewski

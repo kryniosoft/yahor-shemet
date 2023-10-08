@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11c13583-4065-4a4e-8606-c1f0fce71c42" name="Changes" comment="" />
+    <list id="268e673c-b9c9-4ef4-996a-d30f7b583ea6" name="Changes by nikodem" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2V4nvFgh50Vx7YpjM3ec65U74vy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Egor/Desktop/html/yahor-shemet&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11c13583-4065-4a4e-8606-c1f0fce71c42" name="Changes" comment="" />
+      <created>1694104449011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694104449011</updated>
+      <workItem from="1694104450353" duration="91000" />
+      <workItem from="1694104552237" duration="1428000" />
+      <workItem from="1694331340010" duration="358000" />
+      <workItem from="1694497750443" duration="65000" />
+      <workItem from="1694670938568" duration="2218000" />
+      <workItem from="1694673384047" duration="89000" />
+      <workItem from="1694957227554" duration="3544000" />
+      <workItem from="1694965945087" duration="739000" />
+      <workItem from="1695195479355" duration="19000" />
+      <workItem from="1695200010895" duration="1629000" />
+      <workItem from="1695657132135" duration="1715000" />
+      <workItem from="1695804920324" duration="1519000" />
+      <workItem from="1696405388418" duration="1436000" />
+      <workItem from="1696408733165" duration="2175000" />
+      <workItem from="1696411001406" duration="240000" />
+      <workItem from="1696412155709" duration="868000" />
+      <workItem from="1696413048802" duration="261000" />
+      <workItem from="1696419150096" duration="126000" />
+      <workItem from="1696422156675" duration="366000" />
+      <workItem from="1696529326150" duration="661000" />
+      <workItem from="1696747521846" duration="660000" />
+      <workItem from="1696748603292" duration="631000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
